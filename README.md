@@ -1,5 +1,8 @@
 # getters-vue-mutation
 
+## Идея:
+Если получать из стора объект с помощью геттера - то мутируя объект в компоненте это вызывает побочные эффекты. Например если запросить с помощью экшена из другого компонента этот объект, то он будет изменённым. Т.е мы мутируем стор?
+
 ## Project setup
 ```
 yarn install
@@ -10,15 +13,3 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
